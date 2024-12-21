@@ -11,8 +11,7 @@
 [Quanjun Yin]()<sup>1✉️</sup>,
 [Linfeng Zhang]()<sup>3✉️</sup>
 
-<sup>1</sup>National University of Defense Technology, <sup>2</sup>Hefei University of Technology,
-
+<sup>1</sup>National University of Defense Technology, <sup>2</sup>Hefei University of Technology,\
 <sup>3</sup>Shanghai Jiao Tong University
 
 <p>
