@@ -19,7 +19,7 @@
 </div>
 
 <p align='center'>
-<img src='./assests/main.png' alt='mask' width='700px'>
+<img src='main.png' alt='mask' width='700px'>
 </p>
 
 ## 👀 Overview
@@ -27,7 +27,7 @@
 The vision tokens in multimodal large language models usually exhibit significant spatial and temporal redundancy and take up most of the input tokens, which harms their in ference efficiency. To solve this problem, some recent works were introduced to drop the unimportant tokens during in ference where the importance of each token is decided only by the information in either the vision encoding stage or the prefilling stage. In this paper, we propose Multi-stage Token Dropping (MustDrop) to measure the importance of each token from **the whole lifecycle**, including the vision encoding stage, prefilling stage, and decoding stage. Comparison of vision token dropping methods: (a) methods that only drop tokens during the vision encoding stage, i.e., PruMerge and ToMe, (b) methods that remove tokens limited to the prefilling phase, i.e., FastV and SparseVLM, and (c) our Mustdrop approach, which gradually removes invalid tokens during the vision encoding, prefilling, and decoding stages.
 
 <div align=center>
-<img width="600" alt="image" src="./assests/intro.png">
+<img width="600" alt="image" src="intro.png">
 </div>
 
 ## 👨 Preparation
