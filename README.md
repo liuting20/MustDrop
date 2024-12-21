@@ -15,6 +15,9 @@
 
 <sup>3</sup>Shanghai Jiao Tong University
 
+<p>
+<a href='https://arxiv.org/abs/2411.10803'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a>
+
 </h5>
 </div>
 
