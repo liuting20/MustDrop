@@ -42,8 +42,9 @@ cd MustDrop
 
 2. Install necessary package
 ```Shell
- conda env create -f environment.yaml      
- pip install -r requirements.txt
+ conda create -n MustDrop python=3.10 -y
+ conda activate MustDrop
+ pip install -e .
 ```
 
 3. Download Multimodal Benchmark
@@ -51,14 +52,18 @@ cd MustDrop
 Please follow the detailed instruction in [LLaVA-Evaluation](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md).
 
 ## 🎯 Usage
-Specifically, `--sparse` in script indicates whether to perform sparseness, while `--scale` and `--bias` control the degree of token sparsity.
+Specifically, `--sparse` in script indicates whether to perform sparseness, while `--global_thr` and `--individual_thr` control the degree of token sparsity.
 
-1. Example for evaluating MME results (192 tokens, scale = 13.5, bias = 0.0):
+1. Example for evaluating TextVQA results (192 tokens, global_thr = 0.0009, individual_thr = 0.001):
 ```Shell
-CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/mme.sh
+CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/textvqa.sh
 ```
 
-2. Example for evaluating TextVQA results (64 tokens, scale = 0.8, bias = 0.0):
+2. Example for evaluating TextVQA results (128 tokens, global_thr = 0.0014, individual_thr = 0.001):
+```Shell
+CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/textvqa.sh
+```
+3. Example for evaluating TextVQA results (64 tokens, global_thr = 0.011, individual_thr = 0.01):
 ```Shell
 CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/textvqa.sh
 ```
