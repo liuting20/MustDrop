@@ -51,6 +51,13 @@ cd MustDrop
 
 Please follow the detailed instruction in [LLaVA-Evaluation](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md).
 
+4. Download LLaVa and put it under ./liuhaotian/llava-v1.5-7b.
+
+   [LLaVA-1.5](https://huggingface.co/liuhaotian/llava-v1.5-7b)
+
+   [LLaVA-Next](https://huggingface.co/liuhaotian/llava-v1.6-vicuna-7b)
+
+
 ## 🎯 Usage
 Specifically, `--sparse` in script indicates whether to perform sparseness, while `--global_thr` and `--individual_thr` control the degree of token sparsity.
 
