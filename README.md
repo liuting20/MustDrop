@@ -61,12 +61,12 @@ Please follow the detailed instruction in [LLaVA-Evaluation](https://github.com/
 ## 🎯 Usage
 Specifically, `--sparse` in script indicates whether to perform sparseness, while `--global_thr` and `--individual_thr` control the degree of token sparsity.
 
-1. Example for evaluating TextVQA results (192 tokens, global_thr = 0.0009, individual_thr = 0.001):
+1. Example for evaluating TextVQA results (192 tokens, global_thr = 0.001, individual_thr = 0.001):
 ```Shell
 CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/textvqa.sh
 ```
 
-2. Example for evaluating TextVQA results (128 tokens, global_thr = 0.0014, individual_thr = 0.001):
+2. Example for evaluating TextVQA results (128 tokens, global_thr = 0.0012, individual_thr = 0.001):
 ```Shell
 CUDA_VISIBLE_DEVICES=0 bash scripts/v1_5/eval/textvqa.sh
 ```
